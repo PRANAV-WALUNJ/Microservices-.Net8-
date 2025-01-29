@@ -1,0 +1,13 @@
+C:\Pranav\Learning\Microservices-.Net8-\eCommerce.SharedLibrary\eCommerce.SharedLibrary\bin\Debug\net8.0\eCommerce.SharedLibrary.deps.json
+C:\Pranav\Learning\Microservices-.Net8-\eCommerce.SharedLibrary\eCommerce.SharedLibrary\bin\Debug\net8.0\eCommerce.SharedLibrary.dll
+C:\Pranav\Learning\Microservices-.Net8-\eCommerce.SharedLibrary\eCommerce.SharedLibrary\bin\Debug\net8.0\eCommerce.SharedLibrary.pdb
+C:\Pranav\Learning\Microservices-.Net8-\eCommerce.SharedLibrary\eCommerce.SharedLibrary\obj\Debug\net8.0\eCommerce.SharedLibrary.csproj.AssemblyReference.cache
+C:\Pranav\Learning\Microservices-.Net8-\eCommerce.SharedLibrary\eCommerce.SharedLibrary\obj\Debug\net8.0\eCommerce.SharedLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Pranav\Learning\Microservices-.Net8-\eCommerce.SharedLibrary\eCommerce.SharedLibrary\obj\Debug\net8.0\eCommerce.SharedLibrary.AssemblyInfoInputs.cache
+C:\Pranav\Learning\Microservices-.Net8-\eCommerce.SharedLibrary\eCommerce.SharedLibrary\obj\Debug\net8.0\eCommerce.SharedLibrary.AssemblyInfo.cs
+C:\Pranav\Learning\Microservices-.Net8-\eCommerce.SharedLibrary\eCommerce.SharedLibrary\obj\Debug\net8.0\eCommerce.SharedLibrary.csproj.CoreCompileInputs.cache
+C:\Pranav\Learning\Microservices-.Net8-\eCommerce.SharedLibrary\eCommerce.SharedLibrary\obj\Debug\net8.0\eCommerce.SharedLibrary.sourcelink.json
+C:\Pranav\Learning\Microservices-.Net8-\eCommerce.SharedLibrary\eCommerce.SharedLibrary\obj\Debug\net8.0\eCommerce.SharedLibrary.dll
+C:\Pranav\Learning\Microservices-.Net8-\eCommerce.SharedLibrary\eCommerce.SharedLibrary\obj\Debug\net8.0\refint\eCommerce.SharedLibrary.dll
+C:\Pranav\Learning\Microservices-.Net8-\eCommerce.SharedLibrary\eCommerce.SharedLibrary\obj\Debug\net8.0\eCommerce.SharedLibrary.pdb
+C:\Pranav\Learning\Microservices-.Net8-\eCommerce.SharedLibrary\eCommerce.SharedLibrary\obj\Debug\net8.0\ref\eCommerce.SharedLibrary.dll
