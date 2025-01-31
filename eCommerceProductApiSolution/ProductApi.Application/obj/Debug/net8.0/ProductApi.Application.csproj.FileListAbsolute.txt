@@ -1,0 +1,12 @@
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Application\bin\Debug\net8.0\ProductApi.Application.deps.json
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Application\bin\Debug\net8.0\ProductApi.Application.dll
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Application\bin\Debug\net8.0\ProductApi.Application.pdb
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Application\obj\Debug\net8.0\ProductApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Application\obj\Debug\net8.0\ProductApi.Application.AssemblyInfoInputs.cache
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Application\obj\Debug\net8.0\ProductApi.Application.AssemblyInfo.cs
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Application\obj\Debug\net8.0\ProductApi.Application.csproj.CoreCompileInputs.cache
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Application\obj\Debug\net8.0\ProductApi.Application.sourcelink.json
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Application\obj\Debug\net8.0\ProductApi.Application.dll
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Application\obj\Debug\net8.0\refint\ProductApi.Application.dll
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Application\obj\Debug\net8.0\ProductApi.Application.pdb
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Application\obj\Debug\net8.0\ref\ProductApi.Application.dll

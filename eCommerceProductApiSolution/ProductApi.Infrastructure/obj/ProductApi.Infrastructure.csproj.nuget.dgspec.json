@@ -1,0 +1,281 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerceProductApiSolution\\ProductApi.Infrastructure\\ProductApi.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerce.SharedLibrary\\eCommerce.SharedLibrary\\eCommerce.SharedLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerce.SharedLibrary\\eCommerce.SharedLibrary\\eCommerce.SharedLibrary.csproj",
+        "projectName": "eCommerce.SharedLibrary",
+        "projectPath": "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerce.SharedLibrary\\eCommerce.SharedLibrary\\eCommerce.SharedLibrary.csproj",
+        "packagesPath": "C:\\Users\\pwalunj.OFFICE\\.nuget\\packages\\",
+        "outputPath": "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerce.SharedLibrary\\eCommerce.SharedLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pwalunj.OFFICE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerceProductApiSolution\\ProductApi.Application\\ProductApi.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerceProductApiSolution\\ProductApi.Application\\ProductApi.Application.csproj",
+        "projectName": "ProductApi.Application",
+        "projectPath": "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerceProductApiSolution\\ProductApi.Application\\ProductApi.Application.csproj",
+        "packagesPath": "C:\\Users\\pwalunj.OFFICE\\.nuget\\packages\\",
+        "outputPath": "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerceProductApiSolution\\ProductApi.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pwalunj.OFFICE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerce.SharedLibrary\\eCommerce.SharedLibrary\\eCommerce.SharedLibrary.csproj": {
+                "projectPath": "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerce.SharedLibrary\\eCommerce.SharedLibrary\\eCommerce.SharedLibrary.csproj"
+              },
+              "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerceProductApiSolution\\ProductApi.Domain\\ProductApi.Domain.csproj": {
+                "projectPath": "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerceProductApiSolution\\ProductApi.Domain\\ProductApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerceProductApiSolution\\ProductApi.Domain\\ProductApi.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerceProductApiSolution\\ProductApi.Domain\\ProductApi.Domain.csproj",
+        "projectName": "ProductApi.Domain",
+        "projectPath": "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerceProductApiSolution\\ProductApi.Domain\\ProductApi.Domain.csproj",
+        "packagesPath": "C:\\Users\\pwalunj.OFFICE\\.nuget\\packages\\",
+        "outputPath": "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerceProductApiSolution\\ProductApi.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pwalunj.OFFICE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerceProductApiSolution\\ProductApi.Infrastructure\\ProductApi.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerceProductApiSolution\\ProductApi.Infrastructure\\ProductApi.Infrastructure.csproj",
+        "projectName": "ProductApi.Infrastructure",
+        "projectPath": "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerceProductApiSolution\\ProductApi.Infrastructure\\ProductApi.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\pwalunj.OFFICE\\.nuget\\packages\\",
+        "outputPath": "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerceProductApiSolution\\ProductApi.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pwalunj.OFFICE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerceProductApiSolution\\ProductApi.Application\\ProductApi.Application.csproj": {
+                "projectPath": "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerceProductApiSolution\\ProductApi.Application\\ProductApi.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
