@@ -35,7 +35,7 @@ namespace eCommerce.SharedLibrary.DependencyInjection
         public static IApplicationBuilder UseSharedPolices(this IApplicationBuilder app)
         {
             app.UseMiddleware<GlobalException>();
-            app.UseMiddleware<ListenToOnlyApiGetway>();
+            //app.UseMiddleware<ListenToOnlyApiGetway>();
             return app;
         }
     }
