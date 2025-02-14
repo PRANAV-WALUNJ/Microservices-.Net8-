@@ -1,0 +1,12 @@
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceOrderApiSolution\OrderApi.Domain\bin\Debug\net8.0\OrderApi.Domain.deps.json
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceOrderApiSolution\OrderApi.Domain\bin\Debug\net8.0\OrderApi.Domain.dll
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceOrderApiSolution\OrderApi.Domain\bin\Debug\net8.0\OrderApi.Domain.pdb
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceOrderApiSolution\OrderApi.Domain\obj\Debug\net8.0\OrderApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceOrderApiSolution\OrderApi.Domain\obj\Debug\net8.0\OrderApi.Domain.AssemblyInfoInputs.cache
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceOrderApiSolution\OrderApi.Domain\obj\Debug\net8.0\OrderApi.Domain.AssemblyInfo.cs
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceOrderApiSolution\OrderApi.Domain\obj\Debug\net8.0\OrderApi.Domain.csproj.CoreCompileInputs.cache
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceOrderApiSolution\OrderApi.Domain\obj\Debug\net8.0\OrderApi.Domain.sourcelink.json
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceOrderApiSolution\OrderApi.Domain\obj\Debug\net8.0\OrderApi.Domain.dll
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceOrderApiSolution\OrderApi.Domain\obj\Debug\net8.0\refint\OrderApi.Domain.dll
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceOrderApiSolution\OrderApi.Domain\obj\Debug\net8.0\OrderApi.Domain.pdb
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceOrderApiSolution\OrderApi.Domain\obj\Debug\net8.0\ref\OrderApi.Domain.dll
