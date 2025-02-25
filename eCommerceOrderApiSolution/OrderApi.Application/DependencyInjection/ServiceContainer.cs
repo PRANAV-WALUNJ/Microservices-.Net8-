@@ -9,7 +9,7 @@ namespace OrderApi.Application.DependencyInjection
 {
     public static class ServiceContainer
     {
-        public static IServiceCollection AddserviceColleaction(this IServiceCollection services, IConfiguration configuration)
+        public static IServiceCollection AddApplicationService(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddHttpClient<IOrderService,OrderService>(options =>
             {

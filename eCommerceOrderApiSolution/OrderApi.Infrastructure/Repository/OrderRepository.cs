@@ -8,14 +8,21 @@ using System.Linq.Expressions;
 
 namespace OrderApi.Infrastructure.Repository
 {
-    public class OrderRepository(OrderDbContext orderDbContext) : IOrder
+    public class OrderRepository : IOrder
     {
+
+        private readonly OrderDbContext _orderDbContext;
+
+        public OrderRepository(OrderDbContext orderDbContext)
+        {
+            _orderDbContext = orderDbContext;
+        }
         public async Task<Response> CreateAsync(Order entity)
         {
             try
             {
-                var order = orderDbContext.Orders.Add(entity).Entity;
-                await orderDbContext.SaveChangesAsync();
+                var order = _orderDbContext.Orders.Add(entity).Entity;
+                await _orderDbContext.SaveChangesAsync();
                 if (order.Id > 0)
                     return new Response(true, "Order place successfully");
                 else return new Response(false, "Error occured while placing order");
@@ -28,16 +35,16 @@ namespace OrderApi.Infrastructure.Repository
             }
         }
 
-        public async Task<Response> DeleteAsync(Order entity)
+        public async Task<Response> DeleteAsync(int id)
         {
             try
             {
-                var order = await FindByIdAsync(entity.Id);
+                var order = await FindByIdAsync(id);
                 if(order is null)
                     return new Response(false, "Order not found");
 
-                orderDbContext.Orders.Remove(entity);
-                await orderDbContext.SaveChangesAsync();
+                _orderDbContext.Orders.Remove(order);
+                await _orderDbContext.SaveChangesAsync();
                 return new Response(true, "Order deleted successfully");
             }
             catch (Exception ex)
@@ -51,7 +58,7 @@ namespace OrderApi.Infrastructure.Repository
         {
             try
             {
-                var order = await orderDbContext.Orders.FindAsync(id);
+                var order = await _orderDbContext.Orders.FindAsync(id);
                 return order is not null ? order : null!;
             }
             catch (Exception ex)
@@ -65,7 +72,7 @@ namespace OrderApi.Infrastructure.Repository
         {
             try
             {
-                var order = await orderDbContext.Orders.FindAsync(name);
+                var order = await _orderDbContext.Orders.FindAsync(name);
                 return order!;
             }
             catch (Exception ex)
@@ -79,7 +86,7 @@ namespace OrderApi.Infrastructure.Repository
         {
             try
             {
-                var orders =await orderDbContext.Orders.AsNoTracking().ToListAsync();
+                var orders =await _orderDbContext.Orders.AsNoTracking().ToListAsync();
                 return orders;
 
             }
@@ -94,7 +101,7 @@ namespace OrderApi.Infrastructure.Repository
         {
             try
             {
-                var order = await orderDbContext.Orders.Where(predicate).FirstOrDefaultAsync()!;
+                var order = await _orderDbContext.Orders.Where(predicate).FirstOrDefaultAsync()!;
                 return order!;
             }
             catch (Exception ex)
@@ -108,7 +115,7 @@ namespace OrderApi.Infrastructure.Repository
         {
             try
             {
-                var orders = await orderDbContext.Orders.Where(predicate).ToListAsync()!;
+                var orders = await _orderDbContext.Orders.Where(predicate).ToListAsync()!;
                 return orders!;
             }
             catch (Exception ex)
@@ -122,13 +129,13 @@ namespace OrderApi.Infrastructure.Repository
         {
             try
             {
-                var order = await orderDbContext.Orders.FindAsync(entity.Id);
+                var order = await _orderDbContext.Orders.FindAsync(entity.Id);
                 if (order is null)
                     return new Response(false, "order not found");
 
-                orderDbContext.Entry(order).State = EntityState.Detached;
-                orderDbContext.Orders.Update(entity);
-                await orderDbContext.SaveChangesAsync();
+                _orderDbContext.Entry(order).State = EntityState.Detached;
+                _orderDbContext.Orders.Update(entity);
+                await _orderDbContext.SaveChangesAsync();
                 return new Response(true, "Order updated successfullt");
 
             }

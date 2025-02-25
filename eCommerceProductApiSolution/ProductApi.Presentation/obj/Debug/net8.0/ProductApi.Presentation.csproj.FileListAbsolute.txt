@@ -1,5 +1,6 @@
 C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Presentation\bin\Debug\net8.0\appsettings.Development.json
 C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Presentation\bin\Debug\net8.0\appsettings.json
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Presentation\bin\Debug\net8.0\ProductApi.Presentation.staticwebassets.endpoints.json
 C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Presentation\bin\Debug\net8.0\ProductApi.Presentation.exe
 C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Presentation\bin\Debug\net8.0\ProductApi.Presentation.deps.json
 C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Presentation\bin\Debug\net8.0\ProductApi.Presentation.runtimeconfig.json
@@ -139,14 +140,17 @@ C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.P
 C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Presentation\obj\Debug\net8.0\ProductApi.Presentation.MvcApplicationPartsAssemblyInfo.cs
 C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Presentation\obj\Debug\net8.0\ProductApi.Presentation.MvcApplicationPartsAssemblyInfo.cache
 C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Presentation\obj\Debug\net8.0\ProductApi.Presentation.sourcelink.json
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Presentation\obj\Debug\net8.0\scopedcss\bundle\ProductApi.Presentation.styles.css
 C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Presentation\obj\Debug\net8.0\staticwebassets.build.json
 C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Presentation\obj\Debug\net8.0\staticwebassets.development.json
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Presentation\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Presentation\obj\Debug\net8.0\staticwebassets\msbuild.ProductApi.Presentation.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Presentation\obj\Debug\net8.0\staticwebassets\msbuild.ProductApi.Presentation.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Presentation\obj\Debug\net8.0\staticwebassets\msbuild.build.ProductApi.Presentation.props
 C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Presentation\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ProductApi.Presentation.props
 C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Presentation\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ProductApi.Presentation.props
 C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Presentation\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Presentation\obj\Debug\net8.0\scopedcss\bundle\ProductApi.Presentation.styles.css
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Presentation\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Presentation\obj\Debug\net8.0\ProductA.205519A2.Up2Date
 C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Presentation\obj\Debug\net8.0\ProductApi.Presentation.dll
 C:\Pranav\Learning\Microservices-.Net8-\eCommerceProductApiSolution\ProductApi.Presentation\obj\Debug\net8.0\refint\ProductApi.Presentation.dll

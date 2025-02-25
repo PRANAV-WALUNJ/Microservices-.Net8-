@@ -11,7 +11,7 @@ namespace OrderApi.Application.Services
 
         public async Task<ProductDto> GetProduct(int productId)
         {
-            var getProduct = await httpClient.GetAsync($"/api/products/{productId}");
+            var getProduct = await httpClient.GetAsync($"/api/product/{productId}");
             if (!getProduct.IsSuccessStatusCode)
                 return null;
 
@@ -21,7 +21,7 @@ namespace OrderApi.Application.Services
 
         public async Task<AppUserDto> GetUser(int userID)
         {
-            var getUser = await httpClient.GetAsync($"/api/products/{userID}");
+            var getUser = await httpClient.GetAsync($"/api/product/{userID}");
             if (!getUser.IsSuccessStatusCode)
                 return null;
 

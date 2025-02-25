@@ -648,7 +648,7 @@
         },
         "runtime": {
           "eCommerce.SharedLibrary.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -660,7 +660,7 @@
         },
         "runtime": {
           "ProductApi.Application.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -668,7 +668,7 @@
       "ProductApi.Domain/1.0.0": {
         "runtime": {
           "ProductApi.Domain.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }

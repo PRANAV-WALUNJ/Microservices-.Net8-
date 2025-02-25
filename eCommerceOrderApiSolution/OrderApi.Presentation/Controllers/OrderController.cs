@@ -1,11 +1,9 @@
 ﻿using eCommerce.SharedLibrary.Responses;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using OrderApi.Application.DTOs;
 using OrderApi.Application.DTOs.Conversions;
 using OrderApi.Application.Interfaces;
 using OrderApi.Application.Services;
-using OrderApi.Domain.Entities;
 
 namespace OrderApi.Presentation.Controllers
 {
@@ -71,12 +69,12 @@ namespace OrderApi.Presentation.Controllers
 
         }
 
-        [HttpDelete]
-        public async Task<ActionResult<Response>> DeleteOrder(OrderDto orderDto)
+        [HttpDelete("order/{id:int}")]
+        public async Task<ActionResult<Response>> DeleteOrder(int id)
         {
-            var result = OrderConversion.ToEntity(orderDto);
-            var response = await order.DeleteAsync(result);
+            var response = await order.DeleteAsync(id);
             return response.Falg ? Ok(response) : BadRequest(response);
         }
+
     }
 }
