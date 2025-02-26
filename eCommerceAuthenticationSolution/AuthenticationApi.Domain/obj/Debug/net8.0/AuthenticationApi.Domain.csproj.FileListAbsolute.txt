@@ -1,0 +1,12 @@
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceAuthenticationSolution\AuthenticationApi.Domain\bin\Debug\net8.0\AuthenticationApi.Domain.deps.json
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceAuthenticationSolution\AuthenticationApi.Domain\bin\Debug\net8.0\AuthenticationApi.Domain.dll
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceAuthenticationSolution\AuthenticationApi.Domain\bin\Debug\net8.0\AuthenticationApi.Domain.pdb
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceAuthenticationSolution\AuthenticationApi.Domain\obj\Debug\net8.0\AuthenticationApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceAuthenticationSolution\AuthenticationApi.Domain\obj\Debug\net8.0\AuthenticationApi.Domain.AssemblyInfoInputs.cache
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceAuthenticationSolution\AuthenticationApi.Domain\obj\Debug\net8.0\AuthenticationApi.Domain.AssemblyInfo.cs
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceAuthenticationSolution\AuthenticationApi.Domain\obj\Debug\net8.0\AuthenticationApi.Domain.csproj.CoreCompileInputs.cache
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceAuthenticationSolution\AuthenticationApi.Domain\obj\Debug\net8.0\AuthenticationApi.Domain.sourcelink.json
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceAuthenticationSolution\AuthenticationApi.Domain\obj\Debug\net8.0\AuthenticationApi.Domain.dll
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceAuthenticationSolution\AuthenticationApi.Domain\obj\Debug\net8.0\refint\AuthenticationApi.Domain.dll
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceAuthenticationSolution\AuthenticationApi.Domain\obj\Debug\net8.0\AuthenticationApi.Domain.pdb
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceAuthenticationSolution\AuthenticationApi.Domain\obj\Debug\net8.0\ref\AuthenticationApi.Domain.dll

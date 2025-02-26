@@ -1,0 +1,16 @@
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceAuthenticationSolution\AuthenticationApi.Application\bin\Debug\net8.0\AuthenticationApi.Application.deps.json
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceAuthenticationSolution\AuthenticationApi.Application\bin\Debug\net8.0\AuthenticationApi.Application.dll
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceAuthenticationSolution\AuthenticationApi.Application\bin\Debug\net8.0\AuthenticationApi.Application.pdb
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceAuthenticationSolution\AuthenticationApi.Application\bin\Debug\net8.0\eCommerce.SharedLibrary.dll
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceAuthenticationSolution\AuthenticationApi.Application\bin\Debug\net8.0\eCommerce.SharedLibrary.pdb
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceAuthenticationSolution\AuthenticationApi.Application\obj\Debug\net8.0\AuthenticationApi.Application.csproj.AssemblyReference.cache
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceAuthenticationSolution\AuthenticationApi.Application\obj\Debug\net8.0\AuthenticationApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceAuthenticationSolution\AuthenticationApi.Application\obj\Debug\net8.0\AuthenticationApi.Application.AssemblyInfoInputs.cache
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceAuthenticationSolution\AuthenticationApi.Application\obj\Debug\net8.0\AuthenticationApi.Application.AssemblyInfo.cs
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceAuthenticationSolution\AuthenticationApi.Application\obj\Debug\net8.0\AuthenticationApi.Application.csproj.CoreCompileInputs.cache
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceAuthenticationSolution\AuthenticationApi.Application\obj\Debug\net8.0\AuthenticationApi.Application.sourcelink.json
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceAuthenticationSolution\AuthenticationApi.Application\obj\Debug\net8.0\Authenti.F26204DC.Up2Date
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceAuthenticationSolution\AuthenticationApi.Application\obj\Debug\net8.0\AuthenticationApi.Application.dll
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceAuthenticationSolution\AuthenticationApi.Application\obj\Debug\net8.0\refint\AuthenticationApi.Application.dll
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceAuthenticationSolution\AuthenticationApi.Application\obj\Debug\net8.0\AuthenticationApi.Application.pdb
+C:\Pranav\Learning\Microservices-.Net8-\eCommerceAuthenticationSolution\AuthenticationApi.Application\obj\Debug\net8.0\ref\AuthenticationApi.Application.dll
