@@ -45,19 +45,38 @@ namespace AuthenticationApi.Infrastructure.Repositories
 
         public async Task<Response> Login(LoginDTO loginDTO)
         {
-            var getUser = await GetUserByEmail(loginDTO.Email);
-            if (getUser is null)
-                return new Response(false, "Invalid credentials");
+            try
+            {
+                var getUser = await GetUserByEmail(loginDTO.Email);
+                if (getUser is null)
+                    return new Response(false, "Invalid credentials");
 
+                // Debugging: Print the stored hash
+                Console.WriteLine($"Stored hash: {getUser.Password}");
 
-            bool verifyPass = BCrypt.Net.BCrypt.Verify(loginDTO.Password, getUser.Password);
-            if (!verifyPass)
-                return new Response(false, "Invalid credentials");
+                // Check if stored password is a valid BCrypt hash
+                if (string.IsNullOrEmpty(getUser.Password) || !getUser.Password.StartsWith("$2"))
+                {
+                    return new Response(false, "Invalid stored password format");
+                }
 
-            string token = GenerateToken(getUser);
-            return new Response(true, token);
+                // Verify password
+                bool verifyPass = BCrypt.Net.BCrypt.Verify(loginDTO.Password, getUser.Password);
+                if (!verifyPass)
+                    return new Response(false, "Invalid credentials");
+
+                string token = GenerateToken(getUser);
+                return new Response(true, token);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error during login: {ex.Message}");
+                return new Response(false, "An error occurred while processing the request.");
+            }
         }
-        private  string GenerateToken(AppUser appUser)
+
+
+        private string GenerateToken(AppUser appUser)
         {
             var Key = Encoding.UTF8.GetBytes(configuration.GetSection("Authentication:Key").Value!);
             var securitykey = new SymmetricSecurityKey(Key);
@@ -84,24 +103,31 @@ namespace AuthenticationApi.Infrastructure.Repositories
         public async Task<Response> Register(AppUserDto appUserDto)
         {
             var getUser = await GetUserByEmail(appUserDto.Email);
-            if(getUser is null)
+            if (getUser is not null)
             {
-                return new Response(false, "You can not use this email for registration");
+                return new Response(false, "You cannot use this email for registration");
             }
 
-            var result = authenticationDbContext.Users.Add(
-                new AppUser()
-                {
-                    Name = appUserDto.Name,
-                    Email = appUserDto.Email,
-                    Password = appUserDto.PassWord,
-                    TelephoneNumber = appUserDto.TelephoneNumber,
-                    Address = appUserDto.Address,
-                    Role = appUserDto.Role
-                });
+            // ✅ Hash the password before saving it
+            string hashedPassword = BCrypt.Net.BCrypt.HashPassword(appUserDto.PassWord);
+
+            var newUser = new AppUser()
+            {
+                Name = appUserDto.Name,
+                Email = appUserDto.Email,
+                Password = hashedPassword,  // ✅ Store the hashed password
+                TelephoneNumber = appUserDto.TelephoneNumber,
+                Address = appUserDto.Address,
+                Role = appUserDto.Role
+            };
+
+            var result = authenticationDbContext.Users.Add(newUser);
             await authenticationDbContext.SaveChangesAsync();
-            return result.Entity.Id > 0 ? new Response(true, "User register successfully") :
-                new Response(false, "Invalid data provided");
+
+            return result.Entity.Id > 0
+                ? new Response(true, "User registered successfully")
+                : new Response(false, "Invalid data provided");
         }
+
     }
 }

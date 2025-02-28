@@ -70,6 +70,11 @@ namespace ProductApi.Infrastructure.Repositories
             }
         }
 
+        public Task<Response> DeleteAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<Product> FindByIdAsync(int id)
         {
             try

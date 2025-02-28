@@ -68,7 +68,7 @@ namespace ProductApi.Presentation.Controllers
         public async Task<ActionResult<Response>> DeleteProduct(ProductDTO product)
         {
             var getEntity = ProductConversion.ToEntity(product);
-            var response = await _product.DeleteAsync(getEntity);
+            var response = await _product.DeleteAsync(getEntity.Id);
             return Ok(response);
 
         }
