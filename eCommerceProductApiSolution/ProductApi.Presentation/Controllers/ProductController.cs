@@ -1,4 +1,5 @@
 ﻿using eCommerce.SharedLibrary.Responses;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using ProductApi.Application.DTOs;
 using ProductApi.Application.DTOs.conversion;
@@ -8,6 +9,7 @@ namespace ProductApi.Presentation.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [AllowAnonymous]
     public class ProductController : ControllerBase
     {
         private readonly IProduct _product;
@@ -41,6 +43,7 @@ namespace ProductApi.Presentation.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles ="Admin")]
         public async Task<ActionResult<Response>> CreateProduct(ProductDTO product)
         {
             if (!ModelState.IsValid)
@@ -65,6 +68,7 @@ namespace ProductApi.Presentation.Controllers
         }
 
         [HttpDelete]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<Response>> DeleteProduct(ProductDTO product)
         {
             var getEntity = ProductConversion.ToEntity(product);

@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerceAPIGetwaySolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{02D43A7C-7798-4A74-AFEB-0EA8155061FA}|APIGetway.Presentation\\APIGetway.Presentation.csproj|c:\\pranav\\learning\\microservices-.net8-\\ecommerceapigetwaysolution\\apigetway.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02D43A7C-7798-4A74-AFEB-0EA8155061FA}|APIGetway.Presentation\\APIGetway.Presentation.csproj|solutionrelative:apigetway.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02D43A7C-7798-4A74-AFEB-0EA8155061FA}|APIGetway.Presentation\\APIGetway.Presentation.csproj|c:\\pranav\\learning\\microservices-.net8-\\ecommerceapigetwaysolution\\apigetway.presentation\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{02D43A7C-7798-4A74-AFEB-0EA8155061FA}|APIGetway.Presentation\\APIGetway.Presentation.csproj|solutionrelative:apigetway.presentation\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02D43A7C-7798-4A74-AFEB-0EA8155061FA}|APIGetway.Presentation\\APIGetway.Presentation.csproj|c:\\pranav\\learning\\microservices-.net8-\\ecommerceapigetwaysolution\\apigetway.presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{02D43A7C-7798-4A74-AFEB-0EA8155061FA}|APIGetway.Presentation\\APIGetway.Presentation.csproj|solutionrelative:apigetway.presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8944BA0E-A5E7-A44E-C02A-3F1368577666}|..\\eCommerce.SharedLibrary\\eCommerce.SharedLibrary\\eCommerce.SharedLibrary.csproj|c:\\pranav\\learning\\microservices-.net8-\\ecommerce.sharedlibrary\\ecommerce.sharedlibrary\\dependencyinjection\\jwtauthenticationscheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02D43A7C-7798-4A74-AFEB-0EA8155061FA}|APIGetway.Presentation\\APIGetway.Presentation.csproj|c:\\pranav\\learning\\microservices-.net8-\\ecommerceapigetwaysolution\\apigetway.presentation\\middleware\\attachsignaturetorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02D43A7C-7798-4A74-AFEB-0EA8155061FA}|APIGetway.Presentation\\APIGetway.Presentation.csproj|solutionrelative:apigetway.presentation\\middleware\\attachsignaturetorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02D43A7C-7798-4A74-AFEB-0EA8155061FA}|APIGetway.Presentation\\APIGetway.Presentation.csproj|c:\\pranav\\learning\\microservices-.net8-\\ecommerceapigetwaysolution\\apigetway.presentation\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{02D43A7C-7798-4A74-AFEB-0EA8155061FA}|APIGetway.Presentation\\APIGetway.Presentation.csproj|solutionrelative:apigetway.presentation\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerceAPIGetwaySolution\\APIGetway.Presentation\\appsettings.json",
+              "RelativeDocumentMoniker": "APIGetway.Presentation\\appsettings.json",
+              "ToolTip": "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerceAPIGetwaySolution\\APIGetway.Presentation\\appsettings.json",
+              "RelativeToolTip": "APIGetway.Presentation\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-10T09:59:46.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AttachSignatureToRequest.cs",
+              "DocumentMoniker": "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerceAPIGetwaySolution\\APIGetway.Presentation\\Middleware\\AttachSignatureToRequest.cs",
+              "RelativeDocumentMoniker": "APIGetway.Presentation\\Middleware\\AttachSignatureToRequest.cs",
+              "ToolTip": "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerceAPIGetwaySolution\\APIGetway.Presentation\\Middleware\\AttachSignatureToRequest.cs",
+              "RelativeToolTip": "APIGetway.Presentation\\Middleware\\AttachSignatureToRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T09:51:26.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JWTAuthenticationScheme.cs",
+              "DocumentMoniker": "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerce.SharedLibrary\\eCommerce.SharedLibrary\\DependencyInjection\\JWTAuthenticationScheme.cs",
+              "RelativeDocumentMoniker": "..\\eCommerce.SharedLibrary\\eCommerce.SharedLibrary\\DependencyInjection\\JWTAuthenticationScheme.cs",
+              "ToolTip": "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerce.SharedLibrary\\eCommerce.SharedLibrary\\DependencyInjection\\JWTAuthenticationScheme.cs",
+              "RelativeToolTip": "..\\eCommerce.SharedLibrary\\eCommerce.SharedLibrary\\DependencyInjection\\JWTAuthenticationScheme.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T09:44:00.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerceAPIGetwaySolution\\APIGetway.Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "APIGetway.Presentation\\Program.cs",
+              "ToolTip": "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerceAPIGetwaySolution\\APIGetway.Presentation\\Program.cs",
+              "RelativeToolTip": "APIGetway.Presentation\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T13:02:20.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ocelot.json",
+              "DocumentMoniker": "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerceAPIGetwaySolution\\APIGetway.Presentation\\ocelot.json",
+              "RelativeDocumentMoniker": "APIGetway.Presentation\\ocelot.json",
+              "ToolTip": "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerceAPIGetwaySolution\\APIGetway.Presentation\\ocelot.json",
+              "RelativeToolTip": "APIGetway.Presentation\\ocelot.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-03T12:31:26.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerceAPIGetwaySolution\\APIGetway.Presentation\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "APIGetway.Presentation\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Pranav\\Learning\\Microservices-.Net8-\\eCommerceAPIGetwaySolution\\APIGetway.Presentation\\Properties\\launchSettings.json",
+              "RelativeToolTip": "APIGetway.Presentation\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAUAAAAAAAAAAABRwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-03T12:18:34.953Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

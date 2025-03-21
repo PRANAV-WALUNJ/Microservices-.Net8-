@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "o8IBO14dAv8lloSTs8RVVsaWSU/8K5CXgzmqWS78idQ=",
+  "Source": "APIGetway.Presentation",
+  "BasePath": "_content/APIGetway.Presentation",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

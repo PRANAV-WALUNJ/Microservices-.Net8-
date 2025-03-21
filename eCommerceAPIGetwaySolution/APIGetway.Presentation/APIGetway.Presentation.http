@@ -1,0 +1,6 @@
+@APIGetway.Presentation_HostAddress = http://localhost:5032
+
+GET {{APIGetway.Presentation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,11 +1,13 @@
 ﻿using AuthenticationApi.Application.DTOs;
 using AuthenticationApi.Application.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AuthenticationApi.Presentation.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [AllowAnonymous]
     public class AuthenticationController : ControllerBase
     {
         private readonly IUser user;
@@ -32,6 +34,7 @@ namespace AuthenticationApi.Presentation.Controllers
         }
 
         [HttpGet("{id:int}")]
+        [Authorize]
         public async Task<ActionResult<GetUserDTO>> GetUser(int id)
         {
             var users = await user.GetUser(id);
